@@ -1,0 +1,46 @@
+body
+{
+ background-color: rgb(26, 228, 235);
+}
+#score
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#timer
+{
+    font-size: 20px;
+    float:right;
+    margin-right: 10px;
+}
+#SketchToBeDrawn
+{
+    color: salmon;
+}
+canvas
+{
+border:5px solid white;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+
+#show_sketch
+{
+    float:right;
+}
